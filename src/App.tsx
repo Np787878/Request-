@@ -45,11 +45,11 @@ export default function App() {
             muted
             playsInline
             preload="auto"
-            src="public/bg.mp4"
-            className="w-full h-full object-cover opacity-90 transition-opacity duration-1000"
+            src="https://v.ftcdn.net/06/15/45/33/700_F_615453303_sV6H1YI7hFmDOn6pYfGpJF7QzFzYF_ST.mp4"
+            className="w-full h-full object-cover opacity-90"
           />
           {/* Overlays for readability and mood */}
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/5 to-[#fffafd]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/10 to-[#fffafd]" />
           <div className="absolute inset-0 bg-pink-50/10 backdrop-blur-[0.5px]" />
         </div>
 
