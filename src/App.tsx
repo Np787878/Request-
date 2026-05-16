@@ -45,7 +45,7 @@ export default function App() {
             muted
             playsInline
             preload="auto"
-            src="bg.mp4"
+            src="public/bg.mp4"
             className="w-full h-full object-cover opacity-90 transition-opacity duration-1000"
           />
           {/* Overlays for readability and mood */}
