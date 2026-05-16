@@ -45,7 +45,7 @@ export default function App() {
             muted
             playsInline
             preload="auto"
-            src="https://v.ftcdn.net/06/15/45/33/700_F_615453303_sV6H1YI7hFmDOn6pYfGpJF7QzFzYF_ST.mp4"
+            src="public/bg.mp4"
             className="w-full h-full object-cover opacity-90"
           />
           {/* Overlays for readability and mood */}
