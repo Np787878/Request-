@@ -70,15 +70,15 @@ export default function App() {
             </h1>
             
             <p className="text-gray-500 font-serif italic text-xl md:text-2xl mb-16 tracking-wide drop-shadow-sm">
-              A symbol of progress · inner beauty · joy
+              A symbol of progress · inner beauty · resilience
             </p>
 
             <div className="flex gap-8 justify-center text-[0.65rem] tracking-[0.6em] uppercase text-gray-400 font-medium">
               <span className="hover:text-pink-400 transition-colors">Prosperity</span>
               <span className="text-pink-100">|</span>
-              <span className="hover:text-pink-400 transition-colors">Closed Eyes</span>
+              <span className="hover:text-pink-400 transition-colors">purity</span>
               <span className="text-pink-100">|</span>
-              <span className="hover:text-pink-400 transition-colors">Beauty</span>
+              <span className="hover:text-pink-400 transition-colors">Respect</span>
               <span className="text-pink-100">|</span>
               <span className="hover:text-pink-400 transition-colors">Joy</span>
             </div>
