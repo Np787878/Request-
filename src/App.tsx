@@ -45,7 +45,7 @@ export default function App() {
             muted
             playsInline
             preload="auto"
-            src="public/bg.mp4"
+            src="https://youtu.be/5rsdDRJL6M8?si=gOMu8RCP8Vdvtw54"
             className="w-full h-full object-cover opacity-90"
           />
           {/* Overlays for readability and mood */}
