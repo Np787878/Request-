@@ -37,10 +37,10 @@ export default function App() {
       {/* Hero Section with Video Background */}
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
         {/* Video Background Container */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 bg-[#fffafd]">
           <iframe
-            className="w-full h-full object-cover scale-[1.5] opacity-90 transition-opacity duration-1000"
-            src="https://www.youtube.com/embed/5rsdDRJL6M8?autoplay=1&mute=1&loop=1&playlist=5rsdDRJL6M8&controls=0&showinfo=0&rel=0&modestbranding=1&enablejsapi=1"
+            className="w-full h-full object-cover scale-[2.5] md:scale-[1.2] opacity-90 transition-opacity duration-1000 pointer-events-none"
+            src="https://streamable.com/e/acc7gn?autoplay=1&muted=1&loop=1&controls=0"
             allow="autoplay; encrypted-media"
             frameBorder="0"
           ></iframe>
@@ -50,32 +50,32 @@ export default function App() {
         </div>
 
         {/* Text Layered over Video */}
-        <div className="relative z-10 text-center px-6 max-w-4xl">
+        <div className="relative z-10 text-center px-4 max-w-4xl">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
           >
-            <div className="inline-flex items-center gap-2 bg-white/60 backdrop-blur-md border border-white/50 px-6 py-2 rounded-full text-[0.7rem] tracking-[0.3em] uppercase text-gray-600 shadow-sm mb-12">
+            <div className="inline-flex items-center gap-2 bg-white/60 backdrop-blur-md border border-white/50 px-5 py-2 rounded-full text-[0.65rem] md:text-[0.7rem] tracking-[0.2em] md:tracking-[0.3em] uppercase text-gray-600 shadow-sm mb-10 md:mb-12">
               <SparklesIcon size={14} className="text-pink-400" />
               <span>Lotus for a Friend</span>
             </div>
 
-            <h1 className="text-5xl md:text-8xl font-serif text-gray-900 mb-6 drop-shadow-md">
+            <h1 className="text-4xl sm:text-5xl md:text-8xl font-serif text-gray-900 mb-6 drop-shadow-md leading-tight">
               Lotus <span className="italic text-pink-400">for a</span>
             </h1>
             
-            <p className="text-gray-500 font-serif italic text-lg md:text-2xl mb-16 tracking-wide drop-shadow-sm px-4">
+            <p className="text-gray-500 font-serif italic text-base md:text-2xl mb-12 md:mb-16 tracking-wide drop-shadow-sm px-4">
               A symbol of progress · inner beauty · resilience
             </p>
 
-            <div className="flex flex-wrap gap-4 md:gap-8 justify-center text-[0.6rem] md:text-[0.65rem] tracking-[0.4em] md:tracking-[0.6em] uppercase text-gray-400 font-medium px-4">
+            <div className="flex flex-wrap gap-3 md:gap-8 justify-center text-[0.55rem] md:text-[0.65rem] tracking-[0.3em] md:tracking-[0.6em] uppercase text-gray-400 font-medium px-4">
               <span className="hover:text-pink-400 transition-colors">Prosperity</span>
-              <span className="text-pink-100 hidden md:inline">|</span>
+              <span className="text-pink-100 hidden sm:inline">|</span>
               <span className="hover:text-pink-400 transition-colors">Purity</span>
-              <span className="text-pink-100 hidden md:inline">|</span>
+              <span className="text-pink-100 hidden sm:inline">|</span>
               <span className="hover:text-pink-400 transition-colors">Respect</span>
-              <span className="text-pink-100 hidden md:inline">|</span>
+              <span className="text-pink-100 hidden sm:inline">|</span>
               <span className="hover:text-pink-400 transition-colors">Joy</span>
             </div>
           </motion.div>
