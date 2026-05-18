@@ -178,11 +178,16 @@ export default function App() {
         </div>
       </section>
 
-      <footer className="mt-48 text-center text-pink-200/40">
-        <div className="flex justify-center gap-10 mb-12">
+      <footer className="mt-48 text-center px-6 max-w-2xl mx-auto">
+        <div className="flex justify-center gap-10 mb-12 text-pink-200/40">
             <motion.div animate={{ scale: [1, 1.2, 1] }} transition={{ repeat: Infinity, duration: 3 }}><Heart size={20} /></motion.div>
             <motion.div animate={{ scale: [1, 1.2, 1] }} transition={{ repeat: Infinity, duration: 3, delay: 1 }}><Sprout size={20} /></motion.div>
             <motion.div animate={{ scale: [1, 1.2, 1] }} transition={{ repeat: Infinity, duration: 3, delay: 2 }}><SparklesIcon size={20} /></motion.div>
+        </div>
+        <div className="bg-black/90 backdrop-blur-sm text-white p-8 md:p-12 rounded-[2rem] md:rounded-[3rem] mb-20 shadow-2xl text-left md:text-center border border-white/10">
+          <p className="font-serif italic text-sm md:text-base leading-relaxed opacity-90">
+            Hey miss isha , I have fear to how you see this may be negative way or irritate by this steps i don't know. This is my last because someone feels bad or irritate or in problem I don't want people have because of me. It's not in my life.
+          </p>
         </div>
       </footer>
     </div>
