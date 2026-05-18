@@ -38,19 +38,15 @@ export default function App() {
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
         {/* Video Background Container */}
         <div className="absolute inset-0 z-0">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            src="https://youtu.be/5rsdDRJL6M8?si=gOMu8RCP8Vdvtw54"
-            className="w-full h-full object-cover opacity-90"
-          />
+          <iframe
+            className="w-full h-full object-cover scale-[1.5] opacity-90 transition-opacity duration-1000"
+            src="https://www.youtube.com/embed/5rsdDRJL6M8?autoplay=1&mute=1&loop=1&playlist=5rsdDRJL6M8&controls=0&showinfo=0&rel=0&modestbranding=1&enablejsapi=1"
+            allow="autoplay; encrypted-media"
+            frameBorder="0"
+          ></iframe>
           {/* Overlays for readability and mood */}
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/10 to-[#fffafd]" />
-          <div className="absolute inset-0 bg-pink-50/10 backdrop-blur-[0.5px]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/5 to-[#fffafd]" />
+          <div className="absolute inset-0 bg-pink-50/5 backdrop-blur-[0.5px]" />
         </div>
 
         {/* Text Layered over Video */}
