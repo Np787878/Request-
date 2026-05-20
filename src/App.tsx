@@ -40,7 +40,7 @@ export default function App() {
         <div className="absolute inset-0 z-0 bg-[#fffafd]">
           <iframe
             className="w-full h-full object-cover scale-[2.5] md:scale-[1.2] opacity-90 transition-opacity duration-1000 pointer-events-none"
-            src="https://streamable.com/e/acc7gn?autoplay=1&muted=1&loop=1&controls=0"
+            src="https://jumpshare.com/folder/KJNxDUjHsbGioU5uVsAI"
             allow="autoplay; encrypted-media"
             frameBorder="0"
           ></iframe>
