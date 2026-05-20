@@ -39,9 +39,9 @@ export default function App() {
         {/* Video Background Container */}
         <div className="absolute inset-0 z-0 bg-[#fffafd]">
           <iframe
-            className="w-full h-full object-cover scale-[2.5] md:scale-[1.2] opacity-90 transition-opacity duration-1000 pointer-events-none"
-            src="https://youtu.be/5rsdDRJL6M8?si=rz1cjVxY3NJhhTc1"
-            allow="autoplay; encrypted-media"
+            className="w-full h-full object-cover scale-[2.5] md:scale-[1.1] opacity-90 transition-opacity duration-1000 pointer-events-none"
+            src="https://player.vimeo.com/video/1194146080?autoplay=1&loop=1&muted=1&background=1&playsinline=1"
+            allow="autoplay; fullscreen; picture-in-picture"
             frameBorder="0"
           ></iframe>
           {/* Overlays for readability and mood */}
