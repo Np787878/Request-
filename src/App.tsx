@@ -40,7 +40,7 @@ export default function App() {
         <div className="absolute inset-0 z-0 bg-[#fffafd]">
           <iframe
             className="w-full h-full object-cover scale-[2.5] md:scale-[1.2] opacity-90 transition-opacity duration-1000 pointer-events-none"
-            src="https://vimeo.com/1194146080?share=copy&fl=sv&fe=ci"
+            src="https://go.screenpal.com/watch/cOhYYwntpde"
             allow="autoplay; encrypted-media"
             frameBorder="0"
           ></iframe>
