@@ -40,7 +40,7 @@ export default function App() {
         <div className="absolute inset-0 z-0 bg-[#fffafd]">
           <iframe
             className="w-full h-full object-cover scale-[2.5] md:scale-[1.2] opacity-90 transition-opacity duration-1000 pointer-events-none"
-            src="https://www.instagram.com/reel/DYkrZu2oc3Y/?igsh=NDgzZmxzbXp6aHR4"
+            src="https://drive.google.com/file/d/1VPh96GUJaKIU-E_oEgd5mmD2j7FUbHNt/view?usp=drivesdk"
             allow="autoplay; encrypted-media"
             frameBorder="0"
           ></iframe>
